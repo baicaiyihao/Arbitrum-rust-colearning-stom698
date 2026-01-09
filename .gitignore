@@ -1,0 +1,35 @@
+# Rust
+**/target/
+**/*.rs.bk
+*.pdb
+
+# Node.js
+**/node_modules/
+**/dist/
+**/.next/
+
+# Python
+**/__pycache__/
+**/*.pyc
+**/.venv/
+**/venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境和日志
+**/.env
+**/.env.*
+*.log
+
+# 依赖锁文件（按需取消注释）
+# **/Cargo.lock
+# **/package-lock.json
